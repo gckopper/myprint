@@ -1,2 +1,8 @@
+# Test file
+main.cpp
+
 # Compiled code
 main
+
+# Vscode files
+.vscode
