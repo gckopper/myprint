@@ -55,7 +55,9 @@ void printt(const char *format, ...)
 
     // A função asctime transforma a struct "info" em uma string com todas as informações
     // Escreve a data na stdout com um ": " no final para deixar a data separada da mensagem
-    printf("%s: ", asctime(info));
+    char a[25];
+    snprintf(a, 25, "%s", asctime(info));
+    printf("%s: ", a);
 
     // Cria "agrs" como uma lista de argumentos
     va_list args;
