@@ -3,4 +3,5 @@
 int main (void) {
     print("Eu gosto de batata? %s", "sim");
     printt("time time time");
+    printerr("panico!!!");
 }
